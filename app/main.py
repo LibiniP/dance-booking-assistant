@@ -210,18 +210,20 @@ def main():
         border-radius: 14px;
         padding: 12px 16px;
         margin-bottom: 8px;
+        background-color: #4A1A38;
     }
     [data-testid="stSidebar"] {
-        background-color: #F0FDFA;
-        border-right: 1px solid #CCFBF1;
+        background-color: #3C1530;
+        border-right: 1px solid rgba(255,255,255,0.08);
     }
     h1 {
-        color: #0D9488;
+        color: #E8734A;
         font-weight: 700;
     }
     .stButton > button {
         border-radius: 8px;
-        border: 1px solid #0D9488;
+        border: 1px solid #E8734A;
+        color: #E8734A;
     }
     </style>
     """, unsafe_allow_html=True)
