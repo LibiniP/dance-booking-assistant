@@ -28,7 +28,7 @@ def _get(key: str, default: str = "") -> str:
 
 # ---- LLM (Groq) ----
 GROQ_API_KEY = _get("GROQ_API_KEY", "")
-GROQ_MODEL = _get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = _get("GROQ_MODEL", "openai/gpt-oss-120b")
 
 # ---- Embeddings (local, free — no API key needed) ----
 EMBEDDING_MODEL_NAME = _get("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
